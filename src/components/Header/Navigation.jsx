@@ -1,10 +1,10 @@
 
 const MenuComponent = () => {
     return (
-        <ul class="menu ml-auto">
+        <ul className="menu ml-auto">
             <li>
                 <a href="#0">Home</a>
-                <ul class="submenu">
+                <ul className="submenu">
                     <li>
                         <a href="index.html">Home Page One</a>
                     </li>
@@ -27,10 +27,10 @@ const MenuComponent = () => {
             </li>
             <li>
                 <a href="#0">Pages</a>
-                <ul class="submenu">
+                <ul className="submenu">
                     <li>
                         <a href="#0">Product</a>
-                        <ul class="submenu">
+                        <ul className="submenu">
                             <li>
                                 <a href="product.html">Product Page 1</a>
                             </li>
@@ -44,7 +44,7 @@ const MenuComponent = () => {
                     </li>
                     <li>
                         <a href="#0">My Account</a>
-                        <ul class="submenu">
+                        <ul className="submenu">
                             <li>
                                 <a href="sign-up.html">Sign Up</a>
                             </li>
@@ -55,7 +55,7 @@ const MenuComponent = () => {
                     </li>
                     <li>
                         <a href="#0">Dashboard</a>
-                        <ul class="submenu">
+                        <ul className="submenu">
                             <li>
                                 <a href="dashboard.html">Dashboard</a>
                             </li>
@@ -100,16 +100,16 @@ const MenuComponent = () => {
 export default function Navigation() {
    return (
       <header>
-        <div class="header-top">
-            <div class="container">
-                <div class="header-top-wrapper">
-                    <ul class="customer-support">
+        <div className="header-top">
+            <div className="container">
+                <div className="header-top-wrapper">
+                    <ul className="customer-support">
                         <li>
-                            <a href="#0" class="mr-3"><i class="fas fa-phone-alt"></i><span class="ml-2 d-none d-sm-inline-block">Customer Support</span></a>
+                            <a href="#0" className="mr-3"><i className="fas fa-phone-alt"></i><span className="ml-2 d-none d-sm-inline-block">Customer Support</span></a>
                         </li>
                         <li>
-                            <i class="fas fa-globe"></i>
-                            <select name="language" class="select-bar">
+                            <i className="fas fa-globe"></i>
+                            <select name="language" className="select-bar">
                                 <option value="en">En</option>
                                 <option value="Bn">Bn</option>
                                 <option value="Rs">Rs</option>
@@ -119,34 +119,34 @@ export default function Navigation() {
                             </select>
                         </li>
                     </ul>
-                    <ul class="cart-button-area">
+                    <ul className="cart-button-area">
                         <li>
-                            <a href="#0" class="cart-button"><i class="flaticon-shopping-basket"></i><span class="amount">08</span></a>
+                            <a href="#0" className="cart-button"><i className="flaticon-shopping-basket"></i><span className="amount">08</span></a>
                         </li>                        
                         <li>
-                            <a href="sign-in.html" class="user-button"><i class="flaticon-user"></i></a>
+                            <a href="sign-in.html" className="user-button"><i className="flaticon-user"></i></a>
                         </li>                        
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="header-bottom">
-            <div class="container">
-                <div class="header-wrapper">
-                    <div class="logo">
+        <div className="header-bottom">
+            <div className="container">
+                <div className="header-wrapper">
+                    <div className="logo">
                         <a href="index.html">
                             <img src="/assets/images/logo/logo.png" alt="logo"/>
                         </a>
                     </div>
                     <MenuComponent/>
-                    <form class="search-form">
+                    <form className="search-form">
                         <input type="text" placeholder="Search for brand, model...."/>
-                        <button type="submit"><i class="fas fa-search"></i></button>
+                        <button type="submit"><i className="fas fa-search"></i></button>
                     </form>
-                    <div class="search-bar d-md-none">
-                        <a href="#0"><i class="fas fa-search"></i></a>
+                    <div className="search-bar d-md-none">
+                        <a href="#0"><i className="fas fa-search"></i></a>
                     </div>
-                    <div class="header-bar d-lg-none">
+                    <div className="header-bar d-lg-none">
                         <span></span>
                         <span></span>
                         <span></span>
