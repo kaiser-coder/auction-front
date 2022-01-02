@@ -10,7 +10,7 @@ export default function ClientSection() {
                 <div className="client-slider owl-theme owl-carousel">
                     <div className="client-item">
                         <div className="client-content">
-                            <p>I can't stop bidding! It's a great way to spend some time and I want everything on Sbidu.</p>
+                            <p>I can't stop bidding! It's a great way to spend some time and I want everything.</p>
                         </div>
                         <div className="client-author">
                             <div className="thumb">

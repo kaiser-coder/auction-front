@@ -82,9 +82,6 @@ export default function Footer() {
                             <h5 className="title">About Us</h5>
                             <ul className="links-list">
                                 <li>
-                                    <a href="#0">About Sbidu</a>
-                                </li>
-                                <li>
                                     <a href="#0">Help</a>
                                 </li>
                                 <li>

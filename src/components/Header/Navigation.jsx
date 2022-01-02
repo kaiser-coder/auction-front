@@ -133,11 +133,6 @@ export default function Navigation() {
         <div className="header-bottom">
             <div className="container">
                 <div className="header-wrapper">
-                    <div className="logo">
-                        <a href="index.html">
-                            <img src="/assets/images/logo/logo.png" alt="logo"/>
-                        </a>
-                    </div>
                     <MenuComponent/>
                     <form className="search-form">
                         <input type="text" placeholder="Search for brand, model...."/>
