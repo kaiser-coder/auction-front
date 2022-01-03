@@ -6,6 +6,8 @@ import Footer from './components/Footer'
 import Banner from './components/Banner'
 
 import HomePage from './pages/HomePage'
+import Signin from './pages/Signin'
+import Signup from './pages/Signup'
 
 export default function Routes() {
    return (
@@ -15,6 +17,8 @@ export default function Routes() {
 
          <Switch>
             <Route exact path="/" component={HomePage} />
+            <Route exact path="/sign-in" component={Signin} />
+            <Route exact path="/sign-up" component={Signup} />
          </Switch>
          
          <Footer/>
