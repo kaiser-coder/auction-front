@@ -8,6 +8,7 @@ import Banner from './components/Banner'
 import HomePage from './pages/HomePage'
 import Signin from './pages/Signin'
 import Signup from './pages/Signup'
+import Dashboard from './pages/Dashboard'
 
 export default function Routes() {
    return (
@@ -19,6 +20,7 @@ export default function Routes() {
             <Route exact path="/" component={HomePage} />
             <Route exact path="/sign-in" component={Signin} />
             <Route exact path="/sign-up" component={Signup} />
+            <Route exact path="/dashboard" component={Dashboard} />
          </Switch>
          
          <Footer/>

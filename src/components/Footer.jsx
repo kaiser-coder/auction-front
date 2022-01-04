@@ -2,7 +2,7 @@ export default function Footer() {
    return (
       <footer className="bg_img padding-top oh" data-background="/assets/images/footer/footer-bg.jpg">
         <div className="footer-top-shape">
-            <img src="%PUBLIC_URL%/assets/css/img/footer-top-shape.png" alt="css"/>
+            <img src="/assets/css/img/footer-top-shape.png" alt="css"/>
         </div>
         <div className="anime-wrapper">
             <div className="anime-1 plus-anime">
