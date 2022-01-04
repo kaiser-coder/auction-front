@@ -11,6 +11,7 @@ import Signup from './pages/Signup'
 import Dashboard from './pages/Dashboard'
 import Profile from './pages/Profile'
 import WinningBid from './pages/WinningBid'
+import Contact from './pages/Contact'
 
 export default function Routes() {
    return (
@@ -25,6 +26,7 @@ export default function Routes() {
             <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/my-profile" component={Profile} />
             <Route exact path="/winning-bids" component={WinningBid} />
+            <Route exact path="/contact" component={Contact} />
          </Switch>
          
          <Footer/>
