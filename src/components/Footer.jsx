@@ -164,9 +164,6 @@ export default function Footer() {
             <div className="container">
                 <div className="copyright-area">
                     <div className="footer-bottom-wrapper">
-                        <div className="logo">
-                            <a href="index.html"><img src="/assets/images/logo/footer-logo.png" alt="logo"/></a>
-                        </div>
                         <ul className="gateway-area">
                             <li>
                                 <a href="#0"><img src="/assets/images/footer/paypal.png" alt="footer"/></a>
