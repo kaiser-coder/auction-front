@@ -12,6 +12,7 @@ import Dashboard from './pages/Dashboard'
 import Profile from './pages/Profile'
 import WinningBid from './pages/WinningBid'
 import Contact from './pages/Contact'
+import Faq from './pages/Faq'
 
 export default function Routes() {
    return (
@@ -27,6 +28,7 @@ export default function Routes() {
             <Route exact path="/my-profile" component={Profile} />
             <Route exact path="/winning-bids" component={WinningBid} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/faq" component={Faq} />
          </Switch>
          
          <Footer/>

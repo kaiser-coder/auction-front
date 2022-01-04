@@ -28,6 +28,9 @@ const MenuComponent = () => {
             <li>
                 <a href="/sign-up">Sign up</a>
             </li>
+            <li>
+                <a href="/faq">FAQ</a>
+            </li>
         </ul>
     )
 }
