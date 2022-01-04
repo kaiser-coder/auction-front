@@ -1,22 +1,9 @@
+import HeroSection from "../components/HeroSection"
+
 export default function Signin() {
    return (
       <main>
-         <div className="hero-section">
-            <div className="container">
-                  <ul className="breadcrumb">
-                     <li>
-                        <a href="index.html">Home</a>
-                     </li>
-                     <li>
-                        <a href="#0">Pages</a>
-                     </li>
-                     <li>
-                        <span>Sign In</span>
-                     </li>
-                  </ul>
-            </div>
-            <div className="bg_img hero-bg bottom_center" data-background="assets/images/banner/hero-bg.png"></div>
-         </div>
+         <HeroSection title="Sign In"/>
          <section className="account-section padding-bottom">
          <div className="container">
                <div className="account-wrapper mt--100 mt-lg--440">

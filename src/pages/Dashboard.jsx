@@ -1,22 +1,9 @@
+import HeroSection from "../components/HeroSection"
+
 export default function Dashboard() {
    return (
       <main>
-         <div className="hero-section style-2 pb-lg-400">
-            <div className="container">
-                  <ul className="breadcrumb">
-                     <li>
-                        <a href="index.html">Home</a>
-                     </li>
-                     <li>
-                        <a href="#0">My Account</a>
-                     </li>
-                     <li>
-                        <span>Dashboard</span>
-                     </li>
-                  </ul>
-            </div>
-            <div className="bg_img hero-bg bottom_center" data-background="assets/images/banner/hero-bg.png"></div>
-         </div>
+         <HeroSection title="Dashboard"/>
          <section className="dashboard-section padding-bottom mt--240 mt-lg--325 pos-rel">
          <div className="container">
                <div className="row justify-content-center">

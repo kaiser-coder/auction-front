@@ -1,22 +1,9 @@
+import HeroSection from "../components/HeroSection"
+
 export default function Profile() {
    return (
       <main>
-         <div className="hero-section style-2">
-            <div className="container">
-                  <ul className="breadcrumb">
-                     <li>
-                        <a href="index.html">Home</a>
-                     </li>
-                     <li>
-                        <a href="#0">My Account</a>
-                     </li>
-                     <li>
-                        <span>Personal profile</span>
-                     </li>
-                  </ul>
-            </div>
-            <div className="bg_img hero-bg bottom_center" data-background="assets/images/banner/hero-bg.png"></div>
-         </div>
+         <HeroSection title="My Profile"/>
 
          <section className="dashboard-section padding-bottom mt--240 mt-lg--440 pos-rel">
          <div className="container">
