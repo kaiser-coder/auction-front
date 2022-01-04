@@ -15,7 +15,7 @@ const MenuComponent = () => {
                         <a href="/dashboard">Dashboard</a>
                     </li>
                     <li>
-                        <a href="#">My Profile</a>
+                        <a href="/my-profile">My Profile</a>
                     </li>
                     <li>
                         <a href="#">Winning bids</a>
