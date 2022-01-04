@@ -18,7 +18,7 @@ const MenuComponent = () => {
                         <a href="/my-profile">My Profile</a>
                     </li>
                     <li>
-                        <a href="#">Winning bids</a>
+                        <a href="/winning-bids">Winning bids</a>
                     </li>
                 </ul>
             </li>
