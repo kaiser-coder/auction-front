@@ -13,6 +13,7 @@ import Profile from './pages/Profile'
 import WinningBid from './pages/WinningBid'
 import Contact from './pages/Contact'
 import Faq from './pages/Faq'
+import Products from './pages/Products.jsx'
 
 export default function Routes() {
    return (
@@ -22,6 +23,7 @@ export default function Routes() {
 
          <Switch>
             <Route exact path="/" component={HomePage} />
+            <Route exact path="/products" component={Products} />
             <Route exact path="/sign-in" component={Signin} />
             <Route exact path="/sign-up" component={Signup} />
             <Route exact path="/dashboard" component={Dashboard} />
